@@ -1,0 +1,27 @@
+@media screen and (min-width: 769px) and (max-device-width: 1023px) {
+    /* STYLES HERE */
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+    /* STYLES HERE */
+}
+
+@media only screen and (max-device-width: 480px) {
+    .sec-padcn {
+        padding: 50px 0px 50px 0px;
+    }
+
+    .log-img img {
+        object-fit: cover;
+        height: auto;
+    }
+
+    .ww-head {
+        text-align: center;
+        font-size: 24px;
+        text-transform: uppercase;
+        color: white;
+        font-weight: 700;
+        color: white !important;
+    }
+}
